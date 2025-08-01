@@ -35,15 +35,6 @@ A stylish and fully responsive restaurant landing page built with **HTML5** and 
 
 ---
 
-## 📷 Screenshots
-
-| Desktop View | Mobile View |
-|--------------|-------------|
-| ![Desktop](./assets/images/ProjectYannalDesktop.png) | ![Mobile](./assets/images/ProjectYannalMobile.png) |
-
----
-
-
 ## 💡 What I Learned
 
 > Through this project, I practiced responsive layout techniques, custom button shapes with `clip-path`, and organized scalable CSS. Compared to my first two projects, this one reflects a stronger sense of UI/UX and real-world layout planning.
