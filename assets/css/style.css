@@ -53,6 +53,16 @@ h5 {
     position: relative;
 }
 
+@keyframes infRotation {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
 .red-line {
     position: absolute;
     bottom: 0px;
@@ -220,8 +230,8 @@ nav {
 
 .hero-section__btns button:hover {
     clip-path: none;
-        transition: all .3s ease-in-out;
-            box-shadow: var(--red-shadow), -3px 74px 24px 4px #fb66665e;
+    transition: all .3s ease-in-out;
+    box-shadow: var(--red-shadow), -3px 74px 24px 4px #fb66665e;
 }
 
 .hero-section__btns button:nth-child(2):hover {
@@ -551,15 +561,7 @@ nav {
     animation: infRotation 10s linear infinite;
 }
 
-@keyframes infRotation {
-    0% {
-        transform: rotate(0deg);
-    }
 
-    100% {
-        transform: rotate(360deg);
-    }
-}
 
 .product-overview__slider {
     position: absolute;
